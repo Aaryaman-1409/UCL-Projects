@@ -1,0 +1,1 @@
+A program that parses first order and propositional logic formulas using a hand-written recursive descent parser. Can determine satisfiability of a formula using a tableaux, and can output the general parsed structure of a formula

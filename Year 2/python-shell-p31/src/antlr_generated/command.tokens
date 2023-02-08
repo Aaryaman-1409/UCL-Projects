@@ -1,0 +1,13 @@
+T__0=1
+T__1=2
+T__2=3
+T__3=4
+WHITE_SPACE=5
+SINGLE_QUOTES=6
+BACK_QUOTES=7
+DOUBLE_QUOTES=8
+TEXT=9
+'|'=1
+';'=2
+'<'=3
+'>'=4
