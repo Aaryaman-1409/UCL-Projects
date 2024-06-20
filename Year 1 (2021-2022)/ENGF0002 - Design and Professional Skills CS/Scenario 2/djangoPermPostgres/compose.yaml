@@ -8,12 +8,11 @@
 # database or a cache. For examples, see the Awesome Compose repository:
 # https://github.com/docker/awesome-compose
 services:
-  server:
+  djangoperm:
     build:
       context: .
-    ports:
-      - 8000:8000
-
+    networks:
+      - internal-services
 # The commented out section below is an example of how to define a PostgreSQL
 # database that your application can use. `depends_on` tells Docker Compose to
 # start the database before your application. The `db-data` volume persists the
@@ -32,7 +31,7 @@ services:
 #     volumes:
 #       - db-data:/var/lib/postgresql/data
     environment:
-      - SECRET_KEY=${SECRET_KEY}
+      - SECRET_KEY=${DJANGO_SECRET_KEY}
 #     expose:
 #       - 5432
 #     healthcheck:
@@ -46,3 +45,7 @@ services:
 #   db-password:
 #     file: db/password.txt
 
+networks:
+   internal-services:
+     name: internal-services
+     driver: bridge
