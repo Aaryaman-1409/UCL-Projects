@@ -22,6 +22,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://permgenerator.aaryaman.uk'
+]
+
 def get_secret():
     secret_file = '/run/secrets/djangoSecret'
     if os.path.isfile(secret_file):
@@ -33,7 +37,7 @@ def get_secret():
 SECRET_KEY = get_secret()
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['.localhost', '127.0.0.1', '[::1]', '.aaryaman.uk', '0.0.0.0']
 
