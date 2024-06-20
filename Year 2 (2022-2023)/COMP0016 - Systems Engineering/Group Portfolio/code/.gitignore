@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+build/
+**/*.log
+.venv/
+venv/
+v_env/
+Release/
+Debug/
+.idea
+.vs
+.vscode/
+env
+.DS_Store
+node_modules/
+

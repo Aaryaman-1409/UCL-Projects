@@ -1,0 +1,8 @@
+.hg-button:focus{
+    color: rgb(252, 255, 255); 
+    background: rgba(114, 112, 112, 0.8);
+  }
+
+  .simple-keyboard {
+    max-width: 300px;
+  }

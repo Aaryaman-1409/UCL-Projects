@@ -1,0 +1,19 @@
+{
+  "name": "UCL MotionInput Extension",
+  "description": "Live preview of hand detected by MotionInput",
+  "version": "1.0",
+  "manifest_version": 3,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "aaryaman1409@gmail.com-motioninputwebextension"
+             }
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "sidebar_action": {
+      "default_panel": "index.html",
+      "default_title": "UCL MotionInput",
+      "default_icon": "logo.png"
+  }
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Stephan Garbin, based on template in README">
+  <title>UCL CG</title>
+  <link href="/css/plugins/bootstrap.min.css" rel="stylesheet">
+  <link href="/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/plugins/jquery-ui.min.css">
+  <!-- Codemirror-->
+  <link rel="stylesheet" href="/css/plugins/codemirror.css">
+  <link rel="stylesheet" href="/css/plugins/theme/base16-dark.css">
+  <link rel="stylesheet" href="/codemirror/addon/dialog/dialog.css">
+  <link rel="stylesheet" href="/codemirror/addon/search/matchesonscrollbar.css">
+  <link rel="stylesheet" href="/codemirror/addon/fold/foldgutter.css">
+  <link href="/css/index.css" rel="stylesheet">
+</head>
+
+<div class="btn-group btn-group-lg" role="group" style="margin: 2vh;">
+  <button type="button" class="btn menuLoad" data-file="/uclcg/RayTracerSimple.uclcg">Ray Tracing</button>
+  <button type="button" class="btn menuLoad" data-file="/uclcg/rasterizationDemo.uclcg">Rasterization</button>
+  <button type="button" class="btn menuLoad" data-file="/uclcg/PathTracer.uclcg">Path Tracing</button>
+  </div>
+<div id="page-wrapper"></div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12" id="viewerControls">
+        <!-- buttons--><span style="display: inline-block"><a class="btn btn-info" id="refreshButton" href="#"><i
+              class="fa fa-refresh" title="Refresh"></i></a><a class="btn btn-default" id="toFirstFrameButton"
+            href="#"><i class="fa fa-fast-backward" title="Backward"></i></a><a class="btn btn-default" id="stopButton"
+            href="#"><i class="fa fa-stop" title="Stop"></i></a><a class="btn btn-default" id="playButton" href="#"><i
+              class="fa fa-play" title="Play"></i></a><a class="btn btn-default" id="toLastFrameButton" href="#"><i
+              class="fa fa-fast-forward" title="Forward"></i></a></span>
+        <!-- frame controls--><span style="display: inline-block">
+          <input class="form-control" id="currentFrameInput" type="text" style="width: 75px; display: inline;">
+          <input class="form-control" id="maxFramesInput" type="text" style="width: 75px; display: inline;"></span>
+        <!-- resolution controls--><span style="display: inline-block"><a class="btn btn-default"
+            id="decreaseResolutionButton" href="#"><i class="fa fa-compress" title="Decrease Resolution"></i></a><a
+            class="btn btn-default" id="increaseResolutionButton" href="#"><i class="fa fa-expand"
+              title="Increase Resolution"></i></a>
+          <input class="form-control" id="currentResolution" type="text" value="800x400"
+            style="width: 125px; display: inline;" disabled=""></span>
+      </div>
+      <!-- view controls-->
+    </div>
+    <div class="row" id="viewerRow">
+      <div class="col-sm-12 col-md-10 col-lg-8" id="mainCol">
+        <!-- Actual render target-->
+        <div id="renderTarget">
+          <canvas id="glRenderTarget" width="800" height="400" style="display: none;"></canvas>
+        </div>
+        <!-- viewport display-->
+        <div id="viewer">
+          <canvas id="glViewport" width="800" height="400" style="width:100%"></canvas>
+        </div>
+      </div>
+      <!-- mainCol-->
+    </div>
+    <!-- viewer  row-->
+    <div class="row" id="tabSpace">
+      <div class="col-md-12" id="mainCol">
+        <!-- EMPTY TABS-->
+        <div class="codeTab" id="implementationTabs">
+          <ul id="implementationTabsUL"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.container-fluid-->
+</div>
+<!-- /#page-wrapper-->
+<div id="floatingPreview">
+  <canvas id="glViewportSmallClone" width="350" height="175"></canvas>
+</div>
+<script src="/js/plugins/jquery.js"></script>
+<script src="/js/plugins/jquery-ui.min.js"></script>
+<script src="/js/plugins/bootstrap.min.js"></script>
+<script src="/js/plugins/codemirror.js"></script>
+<!-- <script src="/mode/javascript/javascript.js"></script> -->
+<script src="/mode/clike/clike.js"></script>
+<script src="/codemirror/addon/dialog/dialog.js"></script>
+<script src="/codemirror/addon/selection/active-line.js"></script>
+<script src="/codemirror/addon/edit/closebrackets.js"></script>
+<script src="/codemirror/addon/edit/matchbrackets.js"></script>
+<script src="/codemirror/addon/fold/foldcode.js"></script>
+<script src="/codemirror/addon/fold/foldgutter.js"></script>
+<script src="/codemirror/addon/fold/brace-fold.js"></script>
+<script src="/codemirror/addon/fold/xml-fold.js"></script>
+<script src="/codemirror/addon/fold/markdown-fold.js"></script>
+<script src="/codemirror/addon/fold/comment-fold.js"></script>
+<script src="/js/framework.js"></script>
+<script src="/js/plugins/J3DI.js"></script>
+<script src="/js/index.js"></script>

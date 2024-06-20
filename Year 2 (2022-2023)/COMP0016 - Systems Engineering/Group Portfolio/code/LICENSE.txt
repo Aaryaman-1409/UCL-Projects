@@ -1,0 +1,148 @@
+UCL MotionInput Non-Commercial Licence
+UCL MotionInput v3 software
+
+Non-commercial Use Licence (v1.03, 6th March 2023)
+
+Note 1: By downloading the UCL MotionInput v3 software, the Licensee confirms that they/he/she accepts the terms and conditions set out below.
+
+Note 2: The UCL MotionInput v3 software is made available to individuals for purely personal, non-commercial use only under the terms of this licence.
+
+Note 3: For all other uses of the UCL MotionInput v3 software not covered by the terms of this licence (including but not limited to any commercial use), please contact d.mohamedally@ucl.ac.uk.
+
+======================================
+
+1 Definitions
+
+In this Agreement ("the Agreement") the following words shall have the following meanings: Authors shall mean the UCL staff members and UCL students who have contributed to the development of the Software. Commencement Date shall be the date when the Software is downloaded by the Licensee. Improvements has the meaning given in Clause 4.2.
+
+Licence has the meaning given in Clause 2.1.
+
+Licensee shall mean any individual wishing to take a licence to use the Software in accordance with these terms and conditions.
+
+Licensor or UCL shall mean University College London, incorporated by Royal Charter in the United Kingdom, whose principal address is at Gower Street, London WC1E 6BT, United Kingdom.
+
+Non-commercial Academic Research means research which may use the Software to enable touchless operation of programs installed on their computer for their own academic research which is: (a) not funded or otherwise supported through the provision of equipment or materials by a for-profit entity with the purpose of providing that for-profit entity with commercial advantage.
+
+Non-commercial Use means Non-commercial Academic Research and/or Personal Use. Non-commercial Use expressly excludes any profit-making or commercial activities, including without limitation the sale, license, manufacture or development of commercial products, use of the Software in commercially-sponsored research or its use in the provision of any consulting service.
+
+Personal Use: means any non-commercial use of the Software by an individual to enable touchless operation of programs installed on a computer for their personal use which may include:
+
+- individuals undertaking hobbies or management of personal affairs; 
+
+- healthcare professionals wishing to interact in a touchless manner with software installed on clinical computers that they use on a regular basis (for the avoidance of doubt, this licence does not extend to installations undertaken by system administrators of such healthcare organisations); 
+
+- school teachers and lecturers within a classroom setting (for the avoidance of doubt, this licence does not extend to installations undertaken by the educational establishment's external system administrators).
+
+Software shall mean the UCL MotionInput v3 software, as more fully described in the webpage: touchlesscomputing.org.
+
+
+2 Software supply and licence
+
+2.1 Licensor hereby grants the Licensee a non-exclusive, non-transferable, free of charge licence for Non-commercial Use only in accordance with the provisions of this Agreement ("Licence"). The Licence granted hereunder expressly excludes the right to grant sub-licences to any third party, without the Licensor's prior written consent. Any use of the Software for any purpose other than Non-commercial Use shall automatically terminate the Licence.
+
+2.2 The Licensee shall:
+
+(a) use the Software exclusively for its own Non-commercial Use only;
+
+(b) effect and maintain reasonable security measures to safeguard the Software from access or use by any unauthorised person; and
+
+(c) reproduce a copyright notice on every copy of the Software (including partial copies) and on any accompanying manuals and documentation in the form "Copyright (C) UCL 2023. All rights reserved". Trademark and other proprietary notices must also be reproduced but the Licensee has no other right to use the name, arms, trademark, logo or other designation of University College London.
+
+2.3 The Licensee shall not:
+
+(a) make copies of the Software except incidental to normal use of the Software pursuant to this Agreement on its internal computer system and make only such copies of the Software as are properly and reasonably necessary for the purpose of back-up and operational security;
+
+(b) except as expressly permitted by this Agreement and save to the extent and in the circumstances expressly required to be permitted by law, to rent, lease, sub-license, loan, copy, modify, adapt, merge, translate, reverse engineer, decompile, disassemble or create derivative works based on the whole or any part of the Software or its associated documentation or use, reproduce or deal in the Software or any part thereof in any way.
+
+2.4 The Software can call upon the following open source libraries of code which are made available by the relevant copyright owners. The Licensee shall abide by any and all terms of use of these code libraries as required by the relevant copyright owner:
+https://github.com/google/mediapipe/blob/master/LICENSE
+http://dlib.net/license.html
+https://github.com/openvinotoolkit/openvino/blob/master/LICENSE
+https://github.com/moses-palmer/pynput/blob/master/COPYING.LGPL
+https://github.com/asweigart/pyautogui/blob/master/LICENSE.txt
+https://github.com/learncodebygaming/pydirectinput/blob/master/LICENSE.txt
+https://pypi.org/project/pywin32/
+https://github.com/opencv/opencv-python/blob/master/LICENSE.txt
+https://numpy.org/doc/stable/license.html
+https://github.com/ViGEm/ViGEmBus/blob/master/LICENSE
+https://github.com/alphacep/vosk-api/blob/master/COPYING
+https://github.com/tesseract-ocr/tesseract/blob/main/LICENSE
+https://github.com/PyImageSearch/imutils/blob/master/LICENSE.txt
+https://github.com/Nuitka/Nuitka/blob/develop/debian/copyright
+https://github.com/spatialaudio/python-sounddevice/blob/master/LICENSE
+https://github.com/yannbouteiller/vgamepad/blob/main/LICENSE
+https://github.com/scipy/scipy/blob/main/LICENSE.txt
+https://github.com/pandas-dev/pandas/blob/main/LICENSE
+https://github.com/scikit-learn/scikit-learn/blob/main/COPYING
+
+
+3 Software support services
+
+3.1 The Licensor shall be under no obligation to provide support services in relation to the Software. If support services are available and are required by the Licensee, this will be subject to a separate support agreement to be mutually agreed by the parties.
+
+
+4 Intellectual property rights
+
+4.1 All copyright, trademarks and other intellectual property rights subsisting in or used in connection with the Software (including but not limited to all images, animations, audio and other identifiable material relating to the Software) are and remain the sole property of the Licensor. The Licensee shall acquire no rights in any such material except as expressly provided in this Agreement.
+
+4.2 In the event, the Licensee makes any improvements to the Software or discovers any new use of the Software during its Non-commercial Use, it shall promptly notify the same, in sufficient details, to the Licensor ("Improvements"). Any and all intellectual property rights in the Improvements shall vest in the Licensor. The Licensee agrees to assign and does hereby assign any and all of its rights, title and interest in the Improvements to the Licensor. The Licensee shall execute all such documents and do all such things as the Licensor may request to ensure that all intellectual property rights in the Improvements vest in the Licensor.
+
+4.3 Where the Licensor has reasonably requested any information, feedback or report from the Licensee with respect to its experience of using the Software (such as any information in the form of log files prepared by the Licensee) or any configuration settings and their combinations, the Licensor shall be fully entitled to use any such information, feedback or report submitted by the Licensee for any purposes (including without limitation making any changes, adaptations or improvements to the Software as well as disseminating any future releases of the Software). The Licensee hereby assigns any right, title or interest it may have in the intellectual property in such feedback to the Licensor, and the Licensee shall execute all such documents and do all such things as the Licensor may request to ensure that all such intellectual property rights in the Licensee's feedback vests in the Licensor. 
+
+4.4 The Software (and any documents associated with it) contain confidential information of the Licensor. Accordingly the Licensee shall treat the Software (and any documents associated with it) as strictly confidential and shall: (1) only use it for non-commercial use; and (2) not disclose it to anyone who does not need it for that purpose.
+
+
+5 Warranty, liability and Indemnity
+
+5.1 The Licensee expressly acknowledges that use of the software is at Licensee's own risk.
+
+5.2 The Licensee acknowledges that the Software is provided "as is" and without any warranty of performance.
+
+5.3 The Licensor gives no warranties and there are no conditions, either express or implied, on the Software or its performance, including without limitation any implied warranties and conditions of satisfactory quality, merchantability and fitness for a particular purpose or those arising by statute, operation of law, usage of trade, course of dealing or otherwise.
+
+5.4 Subject to clause 8.3, , to the fullest extent permitted by law, the Licensor and/or the Authors shall not be liable to the Licensee for any costs, expenses, loss or damage (whether direct, indirect or consequential, and whether economic or otherwise) arising under or in connection with this Agreement, and whether arising in contract, tort, negligence, breach of statutory duty or otherwise. The parties acknowledge and accept that these exclusions of liability are reasonable because the Licensor has granted the Licensee a right to use the Software (under the terms of this Agreement) for Non-commercial Use and without a request or demand for monetary compensation.
+
+5.5 The Licensee shall indemnify the Licensor and/or the Authors against all liabilities, costs, expenses, damages and losses (including any direct, indirect or consequential losses, loss of profit, loss of reputation and all interest, penalties and legal costs (calculated on a full indemnity basis) and all other reasonable professional costs and expenses) suffered or incurred by the Licensor arising out of or in connection with claims made by any third party against the Licensee and/or the Authors which arise under or in connection with the Licensee's exercise of its rights and obligations under this Agreement.
+
+
+6 Duration and Termination
+
+6.1 This Agreement shall be deemed executed in writing and signed by the parties upon delivery to the Licensee of the Software. Unless terminated earlier in accordance with any provisions of this Agreement, this Agreement shall be effective from the Commencement Date and shall continue in force, as long as, the Licensor's intellectual property rights in the Software subsist under any applicable law.
+
+6.2 The Licensor may (without prejudice to its other rights) terminate this Agreement at any time forthwith by notice in writing to the Licensee if the Licensee defaults in due performance or observance of any of its obligations hereunder and (in the case of a remediable breach) fails to remedy the breach within 10 business days of receipt of a notice so to do.
+
+6.3 The Licensor may terminate this Agreement at any time with or without cause on thirty (30) days' notice in writing to the Licensee.
+
+6.4 Termination of this Agreement, for any reason, shall be without prejudice to the rights and liabilities of the Licensor which may have accrued on or at any time up to the date of termination.
+
+6.5 Upon termination of this Agreement, for any reason, the licence granted under this Agreement shall immediately terminate and the Licensee shall forthwith cease using the Software and within seven (7) days shall remove or destroy all copies of the Software and supporting information or, and if requested by the Licensor to do so, the Licensee shall certify to the Licensor in writing that it has complied with its obligations under this clause 6.5.
+
+6.6 Clauses 1, 4, 5, 6.4, 6.5, 6.6 and 8 will survive the expiry or the termination of this Agreement for any reason and will continue indefinitely.
+
+
+7. Amendments
+
+7.1 Licensor reserves the right, in its sole and absolute discretion, to revise, update, change, modify, add to, supplement, or delete certain terms of this Licence for security, legal, best practice or regulatory reasons.
+
+7.2 Such changes may be effective without prior notice. The most current version of this Licence can be viewed at touchlesscomputing.org. Licensee is responsible for checking periodically for changes. If any future changes to this Licence are unacceptable to Licensee or cause Licensee to no longer be in agreement or compliance with the terms within it, Licensee must immediately uninstall the Software and destroy all copies of it. Continued use of the Software following any revision to this Licence indicates Licensee's acceptance of any and all such changes.
+
+
+8 General
+
+8.1 Assignment and Sub-Licensing. The Licensee is not entitled to assign, sub-contract or sub-license to any third party any of its rights or obligations under this Agreement without the Licensor's prior written consent. For the avoidance of doubt, if reasonably required by the Licensee, it may sub-license its rights under this Agreement, subject to prior written approval of the Licensor.
+
+Provided such an approval is granted, the Licensee shall ensure that any agreement between the Licensee and its sub-licensee (i) shall include obligations on the sub-licensee, which are consistent with the obligations on the Licensee under this Agreement; and (ii) the sub-licensee complies fully with the terms of the relevant sub-licence agreement. In a case where the Licensor has given its aforesaid approval, the Licensee shall be responsible for any breach of or non-compliance with the relevant sub-licence agreement by the sub-licensee as if the breach or non-compliance had been a breach of or non-compliance with this Agreement by the Licensee and the Licensee shall indemnify the Licensor and/or the Authors against any claims which are awarded against or suffered by the Licensor and/or the Authors as a result of any such breach or non-compliance by the sub-licensee.
+
+8.2 Severability. If any part, term or provision of this Agreement be held illegal or unenforceable the validity or enforceability of the remainder of this Agreement shall not be affected and the parties shall use their best endeavours to agree a replacement term with as nearly as possible the same legal effect.
+
+8.3 Entire Agreement. This Agreement supersedes and cancels all previous agreements and working arrangements whether oral or written, express or implied between the parties in respect of or in connection with the matters referred to in this Agreement. The parties agree that neither of them is relying on any representation, warranty, condition or other provision that is not expressly set out in this Agreement. Nothing in this Agreement excludes liability for fraud, death or personal injury caused by negligence, or any other liability that may not be excluded under applicable law.
+
+8.4 No Waiver. No waiver of any term or condition of this Agreement shall be effective unless made in writing and signed by the party against which enforcement of the waiver is sought. The waiver of any breach of any term or any condition of this Agreement shall not be construed as a waiver of any subsequent breach of a term or condition of the same or a different nature.
+
+8.5 Notice. Any notice required to be served by this Agreement shall be given in writing and served personally or by prepaid post addressed to either party at its address or served by email, using the address/email address of a party that has been made available to the other party. Any notice so posted shall be deemed in the absence of evidence of earlier receipt to have been served three days after such posting and in proving such service it shall be sufficient to prove that the letter containing the notice was properly addressed and posted as a prepaid letter. Writing shall include electronic writing and if delivered electronically shall be deemed received the working day after being sent.
+
+8.6 Governing Law. This Agreement shall be governed by and construed and interpreted in accordance with English Law and the parties submit to the exclusive jurisdiction of the English Courts.
+
+8.7 Third Parties. Except for the rights of the Authors as provided in Clauses 5.3, 5.4 and 8.1, this Agreement is not intended to, and does not give any person who is not a party to it any right to enforce any of its provisions for the purposes of the Contracts (Right of Third Parties) Act 1999.
+
+8.8 This Agreement shall be deemed executed in writing and signed by the parties upon delivery to the Licensee of the Software.

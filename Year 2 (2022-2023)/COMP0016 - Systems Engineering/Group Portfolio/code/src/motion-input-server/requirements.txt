@@ -1,0 +1,4 @@
+psutil==5.9.4 
+websockets==10.4
+pyzmq==25.0.0 
+Nuitka==1.5.3
