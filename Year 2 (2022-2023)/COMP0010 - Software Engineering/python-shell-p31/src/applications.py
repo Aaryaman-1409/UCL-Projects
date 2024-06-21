@@ -16,6 +16,10 @@ class Application:
     def run(self, stdin, stdout, args):
         pass
 
+class Help(Application):
+    def run(self, stdin, stdout, args):
+        print("UNIX shell written in python. Supported commands: \n\tcd, pwd, ls, cat, echo, head, tail, grep, find, sort, uniq, cut")
+        print("Type help to see this message again")
 
 class Cd(Application):
     @staticmethod
@@ -431,6 +435,7 @@ class UnsafeWrapper(Application):
 
 class AppFactory:
     applications = {
+        "help": Help,
         "cd": Cd,
         "pwd": Pwd,
         "ls": Ls,
@@ -450,6 +455,7 @@ class AppFactory:
         unsafe = app_name[0] == "_"
         app_name = app_name[1:] if unsafe else app_name
         app = cls.applications[app_name]()
-        if unsafe:
-            return UnsafeWrapper(app)
-        return app
+        # Don't want unsafe functionality
+        #if unsafe:
+        return UnsafeWrapper(app)
+        #return app

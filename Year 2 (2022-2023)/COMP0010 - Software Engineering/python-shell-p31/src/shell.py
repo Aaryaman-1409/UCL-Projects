@@ -22,6 +22,8 @@ def run(command_str, output=None):
 if __name__ == "__main__":  # pragma: no cover
     args_len = len(sys.argv) - 1
     if args_len == 0:
+        print("UNIX shell written in python. Supported commands: \n\tcd, pwd, ls, cat, echo, head, tail, grep, find, sort, uniq, cut")
+        print("Type help to see this message again")
         while True:
             prompt_username = (
                 f'{pwd.getpwuid(os.getuid())[0]}@'
