@@ -1,4 +1,6 @@
-FROM python:3-slim
+FROM tsl0922/ttyd:latest
+
+RUN apt update -y && apt install -y python3 python3-pip 
 
 WORKDIR comp0010
 
@@ -6,8 +8,8 @@ COPY . .
 
 RUN chmod u+x tools/test tools/coverage tools/analysis
 
-RUN python -m pip install --no-cache-dir -r requirements.txt
+RUN python3 -m pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 8000
+EXPOSE 7681
 
-ENTRYPOINT ["python", "src/shell.py"]
+CMD ["ttyd", "-W", "python3", "src/shell.py"]
