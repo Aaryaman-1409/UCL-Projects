@@ -9,7 +9,7 @@ projects=(
 )
 
 # Root directory
-root="/home/opc/UCL-Projects"
+root=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 # Django secret key
 export DJANGO_SECRET_KEY="_$4@nlrs73($elnuw8idm+r%#w7)k!jxcpy!9%n3aywjj^r2#!"
