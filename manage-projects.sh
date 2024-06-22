@@ -2,7 +2,8 @@
 
 # Array of project directories
 projects=(
-    "Year 1 (2021-2022)/COMP004 - Object-Oriented Programming/Notes App Coursework/"
+    # Notes app insecure because of shared persitent storage so not deploying
+    # Year 1 (2021-2022)/COMP004 - Object-Oriented Programming/Notes App Coursework/
     "Year 1 (2021-2022)/ENGF0002 - Design and Professional Skills CS/Scenario 2/djangoPermPostgres"
     "Year 2 (2022-2023)/COMP0016 - Systems Engineering/Group Portfolio/website"
     "Year 3 (2023-2024)/COMP0027 - Computer Graphics/UCL CG Renderer"
