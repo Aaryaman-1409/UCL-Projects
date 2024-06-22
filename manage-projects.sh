@@ -27,6 +27,7 @@ operate_services() {
 # Check the argument and call the function accordingly
 if [ "$1" == "start" ]; then
     operate_services "up -d"
+    # Turn on websockets in nginx proxy manager for pythonshell
     docker run -d --rm --network=internal-services --name=pythonshell pythonshell
 elif [ "$1" == "stop" ]; then
     operate_services "down"
