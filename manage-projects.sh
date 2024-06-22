@@ -26,7 +26,7 @@ operate_services() {
 # Check the argument and call the function accordingly
 if [ "$1" == "start" ]; then
     operate_services "up -d"
-    docker run --rm -p 7681:7681 pythonshell
+    docker run -d --rm --network=internal-services --name=pythonshell pythonshell
 elif [ "$1" == "stop" ]; then
     operate_services "down"
     docker stop pythonshell
